@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BestDelivery.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BestDelivery">
+      <HintPath>..\BestDelivery.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
